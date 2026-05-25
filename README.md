@@ -74,28 +74,6 @@ flowchart TD
     I --> P["📈 Fluency Report"]
     J --> Q["💯 HR Readiness Score"]
 
-## Screens and Flow
-
-```mermaid
-flowchart TD
-    A["Landing Page"] --> B["Login / Signup"]
-    B --> C["Dashboard"]
-    C --> D["Interview Judger"]
-    C --> E["Resume Analyzer"]
-    C --> F["Coding Interview"]
-    C --> G["Aptitude Practice"]
-    C --> H["Group Discussion"]
-    C --> I["Communication Trainer"]
-    C --> J["HR Round Practice"]
-    D --> K["Results + History"]
-    E --> L["ATS Report"]
-    F --> M["DSA Progress"]
-    G --> N["Practice Analytics"]
-    H --> O["GD Feedback"]
-    I --> P["Fluency Report"]
-    J --> Q["HR Readiness Score"]
-```
-
 ---
 
 ## Tech Stack
