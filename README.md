@@ -1,71 +1,78 @@
-# AI Career Coach Platform
-
 <div align="center">
 
-![AI Career Coach Banner](https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:06b6d4,100:14b8a6&height=220&section=header&text=AI%20Career%20Coach&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20AI%20Interview%20Preparation%20Platform&descAlignY=58&descSize=18)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:06b6d4,100:14b8a6&height=300&section=header&text=AI%20Career%20Coach&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Full-Stack%20AI%20Interview%20Preparation%20Platform&descAlignY=65&descSize=20" width="100%"/>
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=111827)](https://react.dev/)
+<br/>
+
+# 🚀 AI Career Coach Platform
+
+### *Your 24/7 AI-Powered Placement Companion*
+
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-22C55E?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-10B981?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
-[![Firebase](https://img.shields.io/badge/Firebase-Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=111827)](https://firebase.google.com/)
-[![Gemini](https://img.shields.io/badge/Gemini_API-AI-8B5CF6?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
+[![Firebase](https://img.shields.io/badge/Firebase-Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Gemini AI](https://img.shields.io/badge/Gemini_API-AI-8B5CF6?style=for-the-badge&logo=googlebard&logoColor=white)](https://ai.google.dev/)
 
-An attractive, modular, full-stack platform that helps students prepare for placements using AI mock interviews, resume analysis, coding practice, aptitude training, group discussion simulation, communication coaching, and HR round practice.
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-0A0A0A?style=for-the-badge)](https://your-demo-link.com)
+[![Report Bug](https://img.shields.io/badge/🐞_Report_Bug-GitHub_Issues-red?style=for-the-badge)](https://github.com/your-username/Interview-Analyzer/issues)
+[![Request Feature](https://img.shields.io/badge/✨_Request_Feature-Discussions-blue?style=for-the-badge)](https://github.com/your-username/Interview-Analyzer/discussions)
+
+### 🌟 Star the Repo if you find it useful! 🌟
 
 </div>
 
 ---
 
-## Table of Contents
+## 📖 Overview
 
-- [Overview](#overview)
-- [Live Modules](#live-modules)
-- [Screens and Flow](#screens-and-flow)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Folder Structure](#folder-structure)
-- [Environment Variables](#environment-variables)
-- [Local Setup](#local-setup)
-- [API Routes](#api-routes)
-- [Database Collections](#database-collections)
-- [AI Prompt Modules](#ai-prompt-modules)
-- [Privacy First Design](#privacy-first-design)
-- [Deployment Plan](#deployment-plan)
-- [Project Roadmap](#project-roadmap)
+**AI Career Coach** is a **final-year-project** and **portfolio-ready** web application designed to be a **one-stop solution** for placement preparation. Unlike basic quiz apps, it simulates the **complete stress and dynamics** of real interviews.
+
+✨ **Why this project is a game-changer:**
+- 🎯 **Realistic Simulation:** Practice with camera, speech, and AI-driven dynamic questions—not static Q&A banks.
+- 🧠 **AI-Powered Feedback:** Get detailed, actionable feedback on your answers, code, body language, and fluency.
+- 📈 **Progress Tracking:** MongoDB saves your history, allowing you to visualize improvement over time.
+- 🧩 **Modular Design:** Each module (Coding, Aptitude, GD, HR) is independent, making the codebase clean, scalable, and easy to maintain.
 
 ---
 
-## Overview
+## 🧩 Live Modules
 
-**AI Career Coach Platform** is a final-year-project and portfolio-ready web application for placement preparation.
-
-It is built as a **modular platform**, not a single-feature app. Each preparation area has its own page, backend routes, MongoDB model, prompt file, and service layer. This makes it easy to add new modules later without breaking existing features.
-
-### Why this project is useful
-
-- Students can practice realistic interview rounds.
-- AI generates dynamic questions instead of static question banks.
-- Camera and speech feedback improve real communication skills.
-- Resume ATS analysis helps students improve job applications.
-- Coding and aptitude modules support placement preparation end to end.
-- MongoDB stores progress history for continuous improvement.
+| Module | Status | 🎯 What It Does |
+| :--- | :---: | :--- |
+| 🎤 **Interview Judger** | ✅ Active | Simulates HR + Technical interviews with camera, speech analysis, AI questions, and scoring. |
+| 📄 **Resume Analyzer** | ✅ Active | Extracts text from PDF/DOCX, calculates ATS score, and provides suggestions for improvement. |
+| 💻 **Coding Interview + DSA** | ✅ Active | Generates coding problems, provides AI hints, reviews code, and tracks progress on a 200+ DSA roadmap. |
+| 🧮 **Aptitude Practice** | ✅ Active | Generates dynamic aptitude questions with shortcuts, explanations, mock tests, and analytics. |
+| 🗣️ **Group Discussion Judger** | ✅ Active | Simulates GD rounds with AI participants and evaluates content, leadership, and clarity. |
+| 🎙️ **Communication Trainer** | ✅ Active | Trains English fluency, grammar, filler-word detection, tone, and professional speaking. |
+| 🤝 **HR Round Practice** | ✅ Active | Practices behavioral and situational HR questions with STAR-method feedback. |
 
 ---
 
-## Live Modules
+## 🎮 User Flow & Screens
 
-| Module | Status | What It Does |
-| --- | --- | --- |
-| Interview Judger | Active | Simulates HR + technical interviews with camera, speech, AI questions, scoring, and history |
-| Resume Analyzer | Active | Extracts PDF/DOCX text, calculates ATS score, checks sections, compares job descriptions |
-| Coding Interview + DSA | Active | Generates coding questions, provides hints, reviews code, tracks DSA roadmap progress |
-| Aptitude Practice | Active | Generates dynamic aptitude questions, explanations, shortcuts, mock tests, and analytics |
-| Group Discussion Judger | Active | Simulates GD rounds with AI participants and evaluates content, leadership, and clarity |
-| Communication Trainer | Active | Trains English fluency, grammar, clarity, fillers, tone, and professional speaking |
-| HR Round Practice | Active | Practices behavioral and situational HR questions with STAR-method feedback |
-
----
+```mermaid
+flowchart TD
+    A["🏠 Landing Page"] --> B["🔐 Login / Signup"]
+    B --> C["📊 Dashboard"]
+    
+    C --> D["🎤 Interview Judger"]
+    C --> E["📄 Resume Analyzer"]
+    C --> F["💻 Coding Interview"]
+    C --> G["🧮 Aptitude Practice"]
+    C --> H["🗣️ Group Discussion"]
+    C --> I["🎙️ Communication Trainer"]
+    C --> J["🤝 HR Round Practice"]
+    
+    D --> K["📈 Results + History"]
+    E --> L["📊 ATS Report"]
+    F --> M["📈 DSA Progress"]
+    G --> N["📊 Practice Analytics"]
+    H --> O["💬 GD Feedback"]
+    I --> P["📈 Fluency Report"]
+    J --> Q["💯 HR Readiness Score"]
 
 ## Screens and Flow
 
