@@ -20,6 +20,9 @@ import FutureModulesPage from './pages/FutureModulesPage';
 import ResumeAnalyzerPage from './pages/ResumeAnalyzerPage';
 import CodingInterviewPage from './pages/CodingInterviewPage';
 import AptitudePracticePage from './pages/AptitudePracticePage';
+import GroupDiscussionPage from './pages/GroupDiscussionPage';
+import CommunicationTrainerPage from './pages/CommunicationTrainerPage';
+import HRRoundPracticePage from './pages/HRRoundPracticePage';
 
 // Pages that show Navbar and Footer
 const PublicLayout = ({ children }) => (
@@ -116,6 +119,21 @@ const App = () => {
             <Route path="/aptitude-practice" element={
               <ProtectedRoute>
                 <AppLayout><AptitudePracticePage /></AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/group-discussion" element={
+              <ProtectedRoute>
+                <AppLayout><GroupDiscussionPage /></AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/communication-trainer" element={
+              <ProtectedRoute>
+                <AppLayout><CommunicationTrainerPage /></AppLayout>
+              </ProtectedRoute>
+            } />
+            <Route path="/hr-round" element={
+              <ProtectedRoute>
+                <AppLayout><HRRoundPracticePage /></AppLayout>
               </ProtectedRoute>
             } />
 

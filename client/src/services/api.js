@@ -86,4 +86,25 @@ export const startAptitudeMockTest = (data) => api.post('/aptitude/mock-tests', 
 export const submitAptitudeMockTest = (id, data) => api.post(`/aptitude/mock-tests/${id}/submit`, data);
 export const getAptitudeMockHistory = () => api.get('/aptitude/mock-tests/history');
 
+// Group Discussion
+export const startGroupDiscussion = (data) => api.post('/group-discussion/sessions', data);
+export const sendGroupDiscussionTurn = (id, data) => api.post(`/group-discussion/sessions/${id}/turns`, data);
+export const endGroupDiscussion = (id) => api.post(`/group-discussion/sessions/${id}/end`);
+export const getGroupDiscussionHistory = () => api.get('/group-discussion/history');
+export const getGroupDiscussionSession = (id) => api.get(`/group-discussion/sessions/${id}`);
+
+// Communication Trainer
+export const getCommunicationPrompts = () => api.get('/communication/prompts');
+export const submitCommunicationSession = (data) => api.post('/communication/sessions', data);
+export const getCommunicationHistory = () => api.get('/communication/history');
+export const getCommunicationSession = (id) => api.get(`/communication/sessions/${id}`);
+
+// HR Round Practice
+export const startHRRoundSession = (data) => api.post('/hr-round/sessions', data);
+export const generateHRRoundQuestion = (id) => api.post(`/hr-round/sessions/${id}/question`);
+export const submitHRRoundAnswer = (id, data) => api.post(`/hr-round/sessions/${id}/answers`, data);
+export const endHRRoundSession = (id) => api.post(`/hr-round/sessions/${id}/end`);
+export const getHRRoundHistory = () => api.get('/hr-round/history');
+export const getHRRoundSession = (id) => api.get(`/hr-round/sessions/${id}`);
+
 export default api;

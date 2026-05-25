@@ -62,8 +62,8 @@ const MODULES = [
     description: 'Simulate GD rounds with AI participants, content scoring, and leadership analysis.',
     color: 'from-blue-500 to-violet-600',
     shadowColor: 'shadow-blue-500/20',
-    active: false,
-    path: null,
+    active: true,
+    path: '/group-discussion',
     stats: ['Content', 'Leadership', 'Initiative'],
   },
   {
@@ -73,8 +73,8 @@ const MODULES = [
     description: 'Accent clarity, grammar, and professional English fluency training sessions.',
     color: 'from-rose-500 to-pink-600',
     shadowColor: 'shadow-rose-500/20',
-    active: false,
-    path: null,
+    active: true,
+    path: '/communication-trainer',
     stats: ['Accent', 'Grammar', 'Fluency'],
   },
   {
@@ -84,8 +84,8 @@ const MODULES = [
     description: 'Practice situational and behavioral HR questions with AI evaluation.',
     color: 'from-teal-500 to-green-600',
     shadowColor: 'shadow-teal-500/20',
-    active: false,
-    path: null,
+    active: true,
+    path: '/hr-round',
     stats: ['Behavioral', 'Situational', 'STAR Method'],
   },
 ];

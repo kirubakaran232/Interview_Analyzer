@@ -17,6 +17,9 @@ const evaluationRoutes = require('./routes/evaluation');
 const resumeRoutes = require('./routes/resume');
 const codingRoutes = require('./routes/coding');
 const aptitudeRoutes = require('./routes/aptitude');
+const groupDiscussionRoutes = require('./routes/groupDiscussion');
+const communicationRoutes = require('./routes/communication');
+const hrRoundRoutes = require('./routes/hrRound');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -42,6 +45,9 @@ app.use('/api/evaluation', evaluationRoutes);
 app.use('/api/resume', resumeRoutes);
 app.use('/api/coding', codingRoutes);
 app.use('/api/aptitude', aptitudeRoutes);
+app.use('/api/group-discussion', groupDiscussionRoutes);
+app.use('/api/communication', communicationRoutes);
+app.use('/api/hr-round', hrRoundRoutes);
 
 // ── Health check ──────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
