@@ -53,7 +53,6 @@
 
 ## 🎮 User Flow & Screens
 
-```mermaid
 flowchart TD
     A["🏠 Landing Page"] --> B["🔐 Login / Signup"]
     B --> C["📊 Dashboard"]
